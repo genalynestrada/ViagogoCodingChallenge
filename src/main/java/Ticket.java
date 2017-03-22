@@ -12,4 +12,5 @@ public class Ticket {
 
     public double getTicketPrice() {return ticketPrice;}
     public int getTicketsAvailable() {return ticketsAvailable;}
+    public String toString(){return "TicketPrice: " + ticketPrice + " TicketsAvailable: " + ticketsAvailable;}
 }
