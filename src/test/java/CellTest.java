@@ -27,10 +27,10 @@ public class CellTest {
     /**
      * Tests if a valid cell can be created.
      */
-    @Test
-    public void validCell(){
-        Event event = new Event(1, 1, 1.00);
-        Cell cell = new Cell(3, 3, new Event[]{event});
-        assertTrue(true); //Would've thrown exception if failed
-    }
+//    @Test
+//    public void validCell(){
+//        Event event = new Event(1, 1, 1.00);
+//        Cell cell = new Cell(3, 3, new Event[]{event});
+//        assertTrue(true); //Would've thrown exception if failed
+//    }
 }
