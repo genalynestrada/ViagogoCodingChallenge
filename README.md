@@ -9,3 +9,14 @@ Scenario
 - Each event has zero or more tickets
 - Each ticket has a non-zero price, expressed in US Dollars
 - The distance between two points should be computed as the Manhattan distance
+
+## Usage
+
+### Clone and Build
+
+    git clone git@github.com:genalynestrada/ViagogoCodingChallenge.git
+    mvn package    
+
+### Execute
+
+    java -jar /target/ClosestEvents-1.0-SNAPSHOT.jar
