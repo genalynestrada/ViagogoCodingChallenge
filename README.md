@@ -15,7 +15,9 @@ Scenario
 ### Clone and Build
 
     git clone git@github.com:genalynestrada/ViagogoCodingChallenge.git
-    mvn package    
+    mvn clean package    
+
+Make sure you are within ViagogoCodingChallenge before running the mvn command.
 
 ### Execute
 
